@@ -63,4 +63,4 @@ java -cp .;junit-platform-console-standalone-1.9.3.jar org.junit.platform.consol
 # windows
 java -cp .;junit-platform-console-standalone-1.9.3.jar org.junit.platform.console.ConsoleLauncher --select-class MultiClientTest
 
-![Calculator UI](images/multiclient.png)
+![Calculator UI](images/7.png)
