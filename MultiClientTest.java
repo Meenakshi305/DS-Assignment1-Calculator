@@ -32,9 +32,9 @@ public class MultiClientTest {
 
                     int result = calc.pop();
                     if (result == Integer.MIN_VALUE) {
-                        System.out.println("[Client-" + id + "] Stack was empty, no result.");
+                        System.out.println("Stack is empty, no result found.");
                     } else {
-                        System.out.println("[Client-" + id + "] Result: " + result);
+                        System.out.println("Result: " + result);
                     }
                 } catch(Exception e){
                 	
@@ -48,3 +48,4 @@ public class MultiClientTest {
         System.out.println("Multi-client test completed.");
     }
 }
+
