@@ -45,6 +45,6 @@ class MultiClientTest {
         for (int r : results) if (r != -1) success = true;
         assertTrue(success, "No client could get a result due to empty stack.");
 
-        System.out.println("Multi-client JUnit test completed.");
+        System.out.println("Multi-client test completed.");
     }
 }
